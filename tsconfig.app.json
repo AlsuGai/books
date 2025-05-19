@@ -22,5 +22,12 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
+
+  "baseUrl": "src",
+  "paths": {
+    "@/layout/*": ["Components/layout/*"],
+    "@/ui/*0": ["Components/ui/*"],
+    "@/*": ["./*"]
+  },
   "include": ["src"]
 }
